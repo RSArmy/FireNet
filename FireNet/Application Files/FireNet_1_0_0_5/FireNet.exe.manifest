@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FireNet.exe" version="1.0.0.5" publicKeyToken="ad2e289498ba30be" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FireNet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FireNet.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FireNet.exe" size="66488">
+      <assemblyIdentity name="FireNet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>S0le2EV9RpPyaK4uVS5iXl7KNGifAOzozuppQuHoXGY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FireNet.exe.config" size="1282">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gl1Ehnp4SVuNAlaUiSi0gIfHPvAV+h/whqXQXqoC4MA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Ruben-PC\Ruben" issuerKeyHash="e6cdbaff674eeb74ef23009ddd6da1dcf51a08e0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nBvoUE2OswbUcKlrsw/bb03WGga94IHnfqkKi/yHlIE=</DigestValue></Reference></SignedInfo><SignatureValue>hvi+uRTNQ76YedBDEr0q5UgoQiAxY7wIotKfWzgT1i4YvaGsesVyaexvBzllchfiKhOcGiyLOZYuoggtiAkadnb/b26kGZs9t8GJFpMK8A1hUVfji2xQTqAn5LiITPTbwtJY89bhRcEphx0jmw30RCirz01jbfr9/pGJ8KhsWkc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qF1W21vfEc9gCbgCdt/hHICuGA1WJBoDap3DTgA+LtUhTmXXzvNUrZI1aCo/zZwBpcfq8c0mkIEXam8cZqm/717Z0/KkmB0kfWrlLVTSI7svd1odyqbXsLlOfJ1g8wzqrzDSdiFUj/+AfzkpTek8dPNGPmcDp37z2GisEBjPdcU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="819487fc8b0aa97ee781e0bd061ad64d6fdb0fb36ba970d406b38e4d50e81b9c" Description="" Url=""><as:assemblyIdentity name="FireNet.exe" version="1.0.0.5" publicKeyToken="ad2e289498ba30be" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Ruben-PC\Ruben</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LCMON7eNbMqUJ9hziqwdMLnYR3F+Y2MC/v0KbPKZf6U=</DigestValue></Reference></SignedInfo><SignatureValue>mDhuI/FeKRG+Wc7ALXVZ+FhyEB4MhY0K5Hs7c18Buxa9lSgT6WXQFn08gbcM68I6/RDUnTKUgfWBHDGRHQldhpU61nsLWnMctX4MC9PCeJMo8AjzGPAnD6hNrm3SEaQXsW3YA8h/v6/2Vs12lx4wzokreGL5lxJ5BuZJ1xE9H8o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qF1W21vfEc9gCbgCdt/hHICuGA1WJBoDap3DTgA+LtUhTmXXzvNUrZI1aCo/zZwBpcfq8c0mkIEXam8cZqm/717Z0/KkmB0kfWrlLVTSI7svd1odyqbXsLlOfJ1g8wzqrzDSdiFUj/+AfzkpTek8dPNGPmcDp37z2GisEBjPdcU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQUzJg5JAKXp5JlQCkxwZcxzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAUgB1AGIAZQBuAC0AUABDAFwAUgB1AGIAZQBuMB4XDTIwMDQxMjEwNTQyN1oXDTIxMDQxMjE2NTQyN1owJzElMCMGA1UEAx4cAFIAdQBiAGUAbgAtAFAAQwBcAFIAdQBiAGUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqF1W21vfEc9gCbgCdt/hHICuGA1WJBoDap3DTgA+LtUhTmXXzvNUrZI1aCo/zZwBpcfq8c0mkIEXam8cZqm/717Z0/KkmB0kfWrlLVTSI7svd1odyqbXsLlOfJ1g8wzqrzDSdiFUj/+AfzkpTek8dPNGPmcDp37z2GisEBjPdcUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCGp1FzbPPwtYyDSFCQ6WeDDj1fXc4fo+amv56I+RssLVNZTgo7oldKie3VVBSAevMh2OcUUACDRRA2O27mFHpJ0VZZ0deR3us6N4YmwGZ+PG0+kEEr517l8rwq3M6wMYaUxGVdR0R8EKeLXyYrYcZC96veakFgGWyfwhBBTPJqtw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
